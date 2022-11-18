@@ -1,0 +1,61 @@
+body {
+  font-family: Pretendard;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.hidden_word {
+  -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+          clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+}
+
+/* header */
+/* nav fixed */
+header nav {
+  width: 100%;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 150px 1fr 450px 150px;
+  grid-auto-rows: 59px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+nav .logo_h1 {
+  font-family: LINESeed;
+  font-weight: 800;
+  font-size: 1.6em;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding: 0 15px;
+  text-align: center;
+}
+
+nav .nav_list {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 3/4;
+  text-align: center;
+}
+
+nav .nav_list li {
+  width: 112.555555px;
+  font-weight: 800;
+}
+
+nav .login_list {
+  display: flex;
+  justify-content: center;
+  grid-column: 4/5;
+  grid-row: 1/2;
+  text-transform: uppercase;
+}
+
+nav .login_list li:nth-child(2) {
+  padding-left: 10px;
+}
