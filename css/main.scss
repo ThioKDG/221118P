@@ -33,7 +33,7 @@ $fontline:LINESeed;
 $fontpreten:Pretendard;
 $col_b:#000;
 $col_w:#fff;
-$h3_size:20px;
+$h3_size:1.6em;
 $bold:800;
 $per_50:50%;
 $per_100:100%;
@@ -490,6 +490,10 @@ main #text_cont{
     border:2px solid #555;
     color:#555;
     display:inline-block;
+    transition: .5s;
+}
+.a_btn:hover{
+    background-color:#fff;
 }
 
 /* footer */

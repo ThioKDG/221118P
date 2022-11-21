@@ -170,7 +170,7 @@ main #text_cont {
 }
 
 .box_list .cont_box .box_title {
-  font-size: 20px;
+  font-size: 1.6em;
   font-weight: 800;
   margin-bottom: 50px;
 }
@@ -592,6 +592,11 @@ main #text_cont {
   border: 2px solid #555;
   color: #555;
   display: inline-block;
+  transition: 0.5s;
+}
+
+.a_btn:hover {
+  background-color: #fff;
 }
 
 /* footer */
