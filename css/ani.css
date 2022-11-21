@@ -1,0 +1,6 @@
+@charset "utf-8"; 
+@keyframes slide {
+    0%{
+        transform: scale(2);
+    }
+}
